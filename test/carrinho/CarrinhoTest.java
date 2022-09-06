@@ -40,7 +40,7 @@ public class CarrinhoTest {
 		Assertions.assertEquals(18.0, cart.getValorTotal());	
 	}
 
-    @DisplayName("Testa a adicao de items ao carrinho")
+    @DisplayName("Testa a adicao de itens ao carrinho")
 	@Test
 	public void testaddItem() {
 		cart.addItem(leite);

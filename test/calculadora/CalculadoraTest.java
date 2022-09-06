@@ -75,7 +75,7 @@ public class CalculadoraTest {
 	@Test
 	public void testehPositivo() {
 		boolean ehPositivo = calc.ehPositivo(50);
-		assertTrue(ehPositivo == true);	
+		assertTrue(ehPositivo);	
 	}
 
 	@DisplayName("Testa a comparacao entre dois numeros iguais")
